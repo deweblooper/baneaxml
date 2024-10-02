@@ -1,0 +1,40 @@
+
+Generates XML in UTF8 on Banea (reduced Heureka) structure on the fly - immediately after changing selected products and saving new settings.
+No need to generate with cron - selected products are not changed, so XML remains same.
+
+
+2.1.1
+-----
+- fix: create xml folder if not exists
+- copy baneafeed.php to new folder
+
+
+2020-10-16 2.1.0
+----------
+- now autmatically creates folder in PS root "xml" if not exists and copies module file "baneafeed.php" there for XML generating
+- improvements and fixes
+
+2017-03-31
+----------
+- generates XML in UTF8 on Banea (reduced Heureka) structure
+- create folder/file in PS root: "../xml/banea_somecode.xml"
+- on module configuration page displays url feed link to generated XML file
+- help file "showfile.php" for show generated XML
+- minor improvements
+- screenshot added
+
+2017-03-30
+----------
+- module configuration page
+- multiselector of more products (viewed by name and id)
+- counting selected values on admin form
+- correct saving values to DB
+- localizations
+
+
+2016-10-28
+----------
+- enabling translations
+- adding css, tpl files
+- hooks
+- creating basic module structure
